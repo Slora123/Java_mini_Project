@@ -1,0 +1,46 @@
+═══════════════════════════════════════════════════════════════
+  RECYCLING QUEST - QUICK SETUP FOR WINDOWS
+═══════════════════════════════════════════════════════════════
+
+📋 PREREQUISITES:
+   1. Java JDK 17 or higher
+   2. Apache Maven 3.6+
+
+═══════════════════════════════════════════════════════════════
+
+🔧 INSTALLATION STEPS:
+
+Step 1: Install Java JDK
+   • Download from: https://adoptium.net/
+   • Install the JDK
+   • Set JAVA_HOME environment variable to JDK path
+   • Add %JAVA_HOME%\bin to PATH
+   • Verify: java -version
+
+Step 2: Install Maven
+   • Download from: https://maven.apache.org/download.cgi
+   • Extract to C:\Program Files\Apache\maven
+   • Set MAVEN_HOME environment variable
+   • Add %MAVEN_HOME%\bin to PATH
+   • Verify: mvn -version
+
+Step 3: Run the Project
+   • Extract the project zip file
+   • Open Command Prompt in project folder
+   • Run: mvn clean package
+   • Run: mvn javafx:run
+
+═══════════════════════════════════════════════════════════════
+
+✅ THAT'S IT! No need to:
+   ❌ Download JavaFX SDK separately
+   ❌ Set PATH_TO_FX variable
+   ❌ Configure module paths
+   
+   Maven downloads and configures everything automatically!
+
+═══════════════════════════════════════════════════════════════
+
+📖 For detailed instructions, see SETUP_WINDOWS.md
+
+═══════════════════════════════════════════════════════════════
